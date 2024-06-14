@@ -1,0 +1,296 @@
+@media screen and (max-width:1200px) {
+    .grid-items {
+        grid-template-areas: " onlinejpgtools onlinejpgtools onlinejpgtools"
+            "ourproduct topjpgtools contact-grid";
+    }
+}
+
+@media screen and (max-width:992px) {
+    .navlist li:nth-child(2) {
+        display: none;
+    }
+
+    .title button {
+        display: none;
+    }
+
+    .box {
+        max-width: 59vw;
+    }
+
+    .containers {
+        max-width: 59vw;
+    }
+
+    .containers p {
+        max-width: 59vw;
+    }
+
+    .buttons {
+        max-width: 49vw;
+    }
+
+    .items {
+        max-width: 59vw;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .context {
+        max-width: max(41vw, 62.5vw);
+    }
+
+    .cont {
+        width: 500px;
+        margin: 0;
+    }
+
+    .ALLJPGTOOLS {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact span {
+        margin: 20px 1px 20px 139px;
+        font-size: 28px;
+    }
+
+    .wedid {
+        width: 380px;
+    }
+
+    .service-1 {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .service-1-i {
+        flex-direction: row;
+        justify-content: left;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .grid-items {
+        grid-template-areas: " onlinejpgtools onlinejpgtools onlinejpgtools"
+            "ourproduct ourproduct ourproduct"
+            "topjpgtools topjpgtools topjpgtools"
+            " contact-grid contact-grid contact-grid";
+        row-gap: 50px;
+    }
+
+    .wedid {
+        width: 330px;
+    }
+
+    .context {
+        max-width: max(41vw, 69.5vw);
+    }
+
+    .cont {
+        width: 415px;
+        margin: 0 20px;
+    }
+
+    .copy {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .navlist li {
+        display: none;
+    }
+
+    .alltools-b {
+        display: block;
+    }
+
+    #profile {
+        display: none;
+    }
+
+    .alltools-b{
+        height: 90vh;
+        width:67vw;
+        overflow: auto; 
+        scrollbar-width: none; 
+    }
+    #burger {
+        display: block;
+        right: 15%;
+    }
+
+    header {
+        max-width: 70vw;
+    }
+
+    .box {
+        max-width: 70vw;
+    }
+
+    .containers p {
+        max-width: 70vw;
+    }
+
+    .search-bar {
+        width: 70vw;
+    }
+
+    .items {
+        max-width: 70vw;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .buttons {
+        max-width: 70vw;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .buttons a {
+        width: 100%;
+    }
+
+    .btn {
+        max-width: 60vw;
+    }
+
+    .ALLJPGTOOLS {
+        grid-template-columns: 1fr;
+    }
+
+    #search-1 {
+        width: 65vw;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .subscription {
+        flex-direction: column;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .label {
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact span {
+        margin: 20px 0 20px 60px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:573px) {
+    .secret-message {
+        margin-top: 10px;
+    }
+
+    .contact span {
+        margin: 20px 0 20px 0px;
+        font-size: 18px;
+        font-size: 16px;
+        gap: 0;
+    }
+
+    .wedid {
+        width: 216px;
+    }
+
+    #search-1 {
+        width: 88vw;
+    }
+
+    .section {
+        max-width: 95vw;
+    }
+
+    .context {
+        max-width: max(41vw, 93.5vw);
+        height: 100vh;
+    }
+
+    .cont {
+        width: 315px;
+        margin: 0 0px;
+    }
+
+    header {
+        max-width: 95vw;
+    }
+
+    .box {
+        max-width: 95vw;
+    }
+
+    .search-bar {
+        width: 62vw;
+    }
+
+    .search-1 {
+        width: 95vw;
+    }
+
+    .items {
+        max-width: 95vw;
+        grid-template-columns: 1fr;
+    }
+
+    #burger {
+        top: 15px;
+        right: 2%;
+    }
+
+    .containers {
+        max-width: 95vw;
+    }
+
+    .containers p {
+        max-width: 95vw;
+    }
+
+    .buttons {
+        max-width: 95vw;
+    }
+
+    .btn button {
+        font-size: 0.85em;
+        padding: 3px;
+    }
+
+    .second h1 {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width:287px) {
+    .context {
+        max-width: max(41vw, 99.5vw);
+    }
+
+    .cont {
+        width: 280px;
+    }
+
+    #burger {
+        top: 55px;
+        left: 2%;
+    }
+
+    .box {
+        margin: 45px auto;
+    }
+}
