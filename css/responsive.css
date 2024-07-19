@@ -1,0 +1,314 @@
+@media screen and (max-width:1200px) {
+    .grid-items {
+        grid-template-areas: " onlinejpgtools onlinejpgtools onlinejpgtools"
+                             "ourproduct topjpgtools contact-grid";
+    }
+    .grid-items-about {
+        grid-template-areas: " onlinejpgtools onlinejpgtools onlinejpgtools onlinejpgtools" 
+                            " ourproduct topjpgtools TOOLCATEGORIES contact-grid";
+    }
+    .height {
+        height: 16vh;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .offer-message {
+        width:30%;
+    }
+    .default {
+        flex-direction: column;
+    }
+    .faq-item-para, .faq-item-para1, .faq-item-para2, .faq-item-para3, .faq-item-para4, .faq-item-para5, .faq-item-para6, .faq-item-para7, .faq-item-para8, .faq-item-para9, .faq-item-para10, .faq-item-para11, .faq-item-para12, .faq-item-para13, .faq-item-para14, .faq-item-para15 {
+        font-size: 15px;
+    }
+    .jcr-left {
+        width: 100%;
+    }
+    .height {
+        height: 20vh;
+    }
+    .about {
+        gap: 70px;
+    }
+    .navlist li:nth-child(2) {
+        display: none;
+    }
+
+    .title button {
+        display: none;
+    }
+
+    .box {
+        max-width: 59vw;
+    }
+
+    .containers {
+        max-width: 59vw;
+    }
+
+    .containers p {
+        max-width: 59vw;
+    }
+
+    .buttons {
+        max-width: 49vw;
+    }
+
+    .items {
+        max-width: 59vw;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .context {
+        max-width: max(41vw, 62.5vw);
+    }
+
+    .cont {
+        width: 500px;
+        margin: 0;
+    }
+
+    .ALLJPGTOOLS {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact span {
+        margin: 20px 1px 20px 139px;
+        font-size: 28px;
+    }
+
+    .wedid {
+        width: 380px;
+    }
+
+    .service-1 {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .service-1-i {
+        flex-direction: row;
+        justify-content: left;
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .alltools-b {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .grid-items {
+        grid-template-areas: " onlinejpgtools onlinejpgtools onlinejpgtools"
+            "ourproduct ourproduct ourproduct"
+            "topjpgtools topjpgtools topjpgtools"
+            " contact-grid contact-grid contact-grid";
+        row-gap: 50px;
+    }
+    .color-picker {
+        max-width: 90vw;
+    }
+    .height {
+        height: 22vh;
+    }
+    .grid-items-about {
+        grid-template-areas: " onlinejpgtools onlinejpgtools onlinejpgtools onlinejpgtools" 
+                            " ourproduct  ourproduct  ourproduct  ourproduct " 
+                            " topjpgtools  topjpgtools  topjpgtools  topjpgtools "
+                            "TOOLCATEGORIES TOOLCATEGORIES TOOLCATEGORIES TOOLCATEGORIES "
+                            "contact-grid contact-grid contact-grid contact-grid";
+    }
+    .plan-contents {
+        grid-template-columns: 1fr;
+    }
+    .faetures-contents {
+        grid-template-columns:1fr;
+    }
+    .card-p{
+        grid-template-columns:1fr 1fr;
+        padding: 0px;
+    }
+    .cards-p{
+        padding: 0px;
+    }
+    .top-B {
+        padding: 44px 25px;
+    }
+    .about {
+        gap: 0px;
+        max-width: 95vw;
+        margin: 0px 0px 50px 20px;
+        flex-direction: column-reverse;
+    }
+    .wedid {
+        width: 216px;
+    }
+    .context {
+        max-width: max(41vw, 93.5vw);
+        height: 100vh;
+    }
+    .cont {
+        width: 415px;
+        margin: 0 20px;
+    }
+    .copy {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    #burger {
+        top: 15px;
+        right: 2%;
+        display: block;
+    }
+    .containers {
+        max-width: 89vw;
+    }
+    .headings,
+    .heading {
+        flex-direction: column;
+        gap: 10px;
+        align-items: normal;
+    }
+    .containers p {
+        max-width: 85vw;
+    }
+    .buttons {
+        gap: 25px;
+        max-width: 80vw;
+        flex-direction: column;
+    }
+    .buttons a {
+        width: 100%;
+    }
+    .second h1 {
+        font-size: 0.85em;
+    }
+    .third {
+        max-width: 99vw;
+        margin: 8vh auto;
+    }
+    .accounts-1 {
+        height: 32px;
+    }
+    .navlist li {
+        display: none;
+    }
+    #profile {
+        display: none;
+    }
+    .alltools-b {
+        height: 90vh;
+        width: 80vw;
+        overflow: auto;
+        scrollbar-width: none;
+    }
+    header {
+        max-width: 95vw;
+    }
+   .box {
+    max-width: 80vw;
+}
+    .search-bar {
+        width: 70vw;
+    }
+    .items {
+        max-width: 80vw;
+        grid-template-columns: 1fr;
+    }
+    .btn {
+        max-width: 60vw;
+    }
+    .ALLJPGTOOLS {
+        grid-template-columns: 1fr;
+    }
+    #search-1 {
+        width: 88vw;
+    }
+    .search-1 {
+        width: 80vw;
+    }
+    .subscribe {
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+    }
+    .subscription {
+        flex-direction: column;
+    }
+    .form {
+        flex-direction: column;
+    }
+    .label {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+    }
+    .contact span {
+        margin: 20px 0 20px 0px;
+        font-size: 18px;
+        font-size: 16px;
+        gap: 0;
+    }
+
+    .all-tool-categories {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .fourth {
+        max-width: 97vw;
+    }
+}
+@media screen and (max-width:573px) {
+    .secret-message {
+        margin-top: 10px;
+    }
+    .card-p{
+        grid-template-columns:1fr;
+    }
+    .btn button a {
+        font-size: 12px;
+    }
+    .offer-message {
+        width:65%;
+    }
+    .alltools-b {
+        width: 85vw;
+    }
+    .third-container-about h1 {
+        font-size: 18px;
+    }
+    .third-container-about-footer {
+        font-size: 10px;
+    }
+    .default {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:293px) {
+    .context {
+        max-width: max(41vw, 99.5vw);
+    }
+    .online {
+        font-size: 14px;
+    }
+    .accounts {
+        width: 61%;
+    }
+    .cont {
+        width: 280px;
+    }
+    #burger {
+        top: 5px;
+        right: 2%;
+    }
+    .box {
+        margin: 45px auto;
+    }
+}
